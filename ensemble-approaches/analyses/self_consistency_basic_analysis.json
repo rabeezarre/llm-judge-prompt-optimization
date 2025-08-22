@@ -1,0 +1,167 @@
+{
+  "ensemble_name": "Self-Consistency (5 paths)",
+  "total_samples": 50,
+  "accuracy": 0.76,
+  "macro_f1": 0.456140350877193,
+  "macro_precision": 0.44166666666666665,
+  "macro_recall": 0.47222222222222215,
+  "weighted_f1": 0.7252631578947368,
+  "per_class_metrics": {
+    "Direct Command": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "Suggestion": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 10.0
+    },
+    "No Instruction": {
+      "precision": 0.825,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.868421052631579,
+      "support": 36.0
+    }
+  },
+  "average_confidence": 0.956,
+  "confidence_distribution": {
+    "high (≥0.8)": 46,
+    "medium (0.6-0.8)": 4,
+    "low (<0.6)": 0
+  },
+  "reasoning_path_analysis": {
+    "average_paths": 5.0,
+    "unanimous_rate": 0.86,
+    "majority_rate": 0.14,
+    "tie_rate": 0.0,
+    "average_answer_diversity": 1.14,
+    "max_answer_diversity": 2
+  },
+  "temperature_analysis": {
+    "average": 0.31107566331907993,
+    "min": 0.2317651393325581,
+    "max": 0.40519007247043853,
+    "std": 0.04037815273080064
+  },
+  "improvement_over_single_path": 0.0,
+  "consistency_vs_accuracy_correlation": 0.27324334617133167,
+  "confusion_matrix": [
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      5,
+      5
+    ],
+    [
+      0,
+      3,
+      33
+    ]
+  ],
+  "error_patterns": {
+    "Suggestion → No Instruction": 5,
+    "Direct Command → No Instruction": 2,
+    "No Instruction → Suggestion": 3,
+    "Direct Command → Suggestion": 2
+  },
+  "low_confidence_errors": [],
+  "high_confidence_errors": [
+    {
+      "correlation_id": "01983d22-664f-7324-94a0-35fb43ccb736",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "01983d20-6a8f-7c63-a96f-f6caf1c07268",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "019832a1-243d-7933-b683-8c2f650ec8a5",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "01980e99-f3b3-70aa-8a0c-9c6174e4b060",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "0197f1b0-e194-78a1-af6d-fceada0348b1",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "01982357-72ff-7a31-827c-fa63129b9c25",
+      "true_label": "Direct Command",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "0197f50e-6b08-7d26-b0a9-6ba33c46bd62",
+      "true_label": "No Instruction",
+      "predicted_label": "Suggestion",
+      "confidence": 1.0,
+      "vote_counts": {
+        "Suggestion": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "019860e6-53d8-70f5-9109-2ca701104181",
+      "true_label": "No Instruction",
+      "predicted_label": "Suggestion",
+      "confidence": 1.0,
+      "vote_counts": {
+        "Suggestion": 5
+      },
+      "num_paths": 5
+    },
+    {
+      "correlation_id": "019860bc-4d37-7990-a166-42c7715c30c5",
+      "true_label": "Direct Command",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 5
+      },
+      "num_paths": 5
+    }
+  ]
+}

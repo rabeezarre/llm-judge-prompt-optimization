@@ -1,0 +1,21 @@
+{
+    "name": "Direct Command Judge CoT Role FewShots Prompt",
+    "description": "Identifies the strength of an instruction in an assistant's message, focusing on directness toward the user, using role framing, step-by-step reasoning, and few-shot examples.",
+    "model_name": "mistral-small-latest",
+    "instructions": "You are a communication analyst evaluating the tone and directive strength of the assistant's message toward the user.\n\nThink step-by-step before deciding:\n1. Check if the message contains any action request directed at the user.\n2. If yes, decide whether it is explicit and strong (Direct Command) or optional/indirect (Suggestion). If no, classify as 'No Instruction'.\n3. Consider wording strength, modal verbs ('can', 'could', 'should', 'must'), and conversational context.\n\nUse these examples as guidance:\nExample 1: 'Click the Submit button now.' → Direct Command\nExample 2: 'You might want to try updating your browser.' → Suggestion\nExample 3: 'The weather tomorrow will be sunny.' → No Instruction\n\nShow your reasoning process internally, then output only the final label: 'Direct Command', 'Suggestion', or 'No Instruction'.",
+    "output_options": [
+        {
+            "value": "Direct Command",
+            "description": "The message clearly and explicitly tells the user to perform a specific action."
+        },
+        {
+            "value": "Suggestion",
+            "description": "The message offers an optional or indirect recommendation for the user to consider performing an action."
+        },
+        {
+            "value": "No Instruction",
+            "description": "The message does not request, recommend, or direct the user to take any action."
+        }
+    ],
+    "tools": []
+}

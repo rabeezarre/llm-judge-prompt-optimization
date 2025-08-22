@@ -1,0 +1,182 @@
+{
+  "ensemble_name": "Self-Consistency (9 paths)",
+  "total_samples": 50,
+  "accuracy": 0.76,
+  "macro_f1": 0.46491228070175444,
+  "macro_precision": 0.4601851851851852,
+  "macro_recall": 0.47222222222222215,
+  "weighted_f1": 0.7305263157894737,
+  "per_class_metrics": {
+    "Direct Command": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "Suggestion": {
+      "precision": 0.5555555555555556,
+      "recall": 0.5,
+      "f1-score": 0.5263157894736842,
+      "support": 10.0
+    },
+    "No Instruction": {
+      "precision": 0.825,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.868421052631579,
+      "support": 36.0
+    }
+  },
+  "average_confidence": 0.9488888888888889,
+  "confidence_distribution": {
+    "high (≥0.8)": 44,
+    "medium (0.6-0.8)": 3,
+    "low (<0.6)": 3
+  },
+  "reasoning_path_analysis": {
+    "average_paths": 9.0,
+    "unanimous_rate": 0.8,
+    "majority_rate": 0.2,
+    "tie_rate": 0.0,
+    "average_answer_diversity": 1.2,
+    "max_answer_diversity": 2
+  },
+  "temperature_analysis": {
+    "average": 0.34957163766316396,
+    "min": 0.2337295908052777,
+    "max": 0.44282458229349697,
+    "std": 0.050213154469899546
+  },
+  "improvement_over_single_path": 0.0,
+  "consistency_vs_accuracy_correlation": 0.19408850665272825,
+  "confusion_matrix": [
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      5,
+      5
+    ],
+    [
+      1,
+      2,
+      33
+    ]
+  ],
+  "error_patterns": {
+    "Suggestion → No Instruction": 5,
+    "Direct Command → No Instruction": 2,
+    "No Instruction → Suggestion": 2,
+    "Direct Command → Suggestion": 2,
+    "No Instruction → Direct Command": 1
+  },
+  "low_confidence_errors": [
+    {
+      "correlation_id": "019885ae-76a9-7bdf-b76a-b84769a9d2a6",
+      "true_label": "No Instruction",
+      "predicted_label": "Direct Command",
+      "confidence": 0.5555555555555556,
+      "vote_counts": {
+        "No Instruction": 4,
+        "Direct Command": 5
+      },
+      "num_paths": 9
+    }
+  ],
+  "high_confidence_errors": [
+    {
+      "correlation_id": "01983d22-664f-7324-94a0-35fb43ccb736",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 9
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "01983d20-6a8f-7c63-a96f-f6caf1c07268",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 9
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "019832a1-243d-7933-b683-8c2f650ec8a5",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 9
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "01980e99-f3b3-70aa-8a0c-9c6174e4b060",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 9
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "0197f1b0-e194-78a1-af6d-fceada0348b1",
+      "true_label": "Suggestion",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 9
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "01982357-72ff-7a31-827c-fa63129b9c25",
+      "true_label": "Direct Command",
+      "predicted_label": "No Instruction",
+      "confidence": 0.8888888888888888,
+      "vote_counts": {
+        "No Instruction": 8,
+        "Suggestion": 1
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "019860e6-53d8-70f5-9109-2ca701104181",
+      "true_label": "No Instruction",
+      "predicted_label": "Suggestion",
+      "confidence": 0.8888888888888888,
+      "vote_counts": {
+        "Suggestion": 8,
+        "No Instruction": 1
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "019860bc-4d37-7990-a166-42c7715c30c5",
+      "true_label": "Direct Command",
+      "predicted_label": "No Instruction",
+      "confidence": 1.0,
+      "vote_counts": {
+        "No Instruction": 9
+      },
+      "num_paths": 9
+    },
+    {
+      "correlation_id": "01987098-2ada-714f-8e04-26b5a846bb11",
+      "true_label": "Direct Command",
+      "predicted_label": "Suggestion",
+      "confidence": 1.0,
+      "vote_counts": {
+        "Suggestion": 9
+      },
+      "num_paths": 9
+    }
+  ]
+}

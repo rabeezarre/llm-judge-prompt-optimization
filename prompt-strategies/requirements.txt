@@ -1,0 +1,3 @@
+mistralai>=1.0.0
+asyncio
+python-dotenv>=1.0.0

@@ -1,0 +1,21 @@
+{
+  "name": "Direct Command Judge Few-Shots Prompt (Enhanced)",
+  "description": "Identifies the strength of an instruction in an assistant's message using few-shot examples.\n\nEnhanced with systematic bias prevention and universal improvements.",
+  "model_name": "mistral-small-latest",
+  "instructions": "Classify the assistant's messages based on the following guidelines, paying special attention to embedded instructions and indirect language:\n\n1. **Direct Command**: Look for explicit instructions that clearly tell the user to perform a specific action. These may appear in various formats, including within explanations or structured content.\n2. **Suggestion**: Identify optional or indirect recommendations. These often appear as advice, tips, or considerations that the user might want to follow. Pay attention to phrases that imply a course of action without being explicit.\n3. **No Instruction**: Determine when the message is purely informative, explanatory, or descriptive without any request, recommendation, or directive for the user to take action.\n\n**Key Considerations**:\n- **Embedded Instructions**: Be aware that instructions can be embedded within explanations or structured content. Do not overlook them because they are not standalone.\n- **Indirect Language**: Recognize that suggestions can be phrased as advice, tips, or considerations. They may not use direct language but still imply a course of action.\n- **Context Awareness**: Understand that the same words can serve different functions in different contexts. Focus on the underlying purpose rather than the surface language.\n- **Format Sensitivity**: Do not be distracted by formatting. Focus on the actual content and the intent behind the message.\n\n**Examples**:\n- 'Click the Submit button now.' \u2192 Direct Command\n- 'You might want to try updating your browser.' \u2192 Suggestion\n- 'The weather tomorrow will be sunny.' \u2192 No Instruction\n- 'Consider going to the gym at 15 years old, as it can help build healthy habits and improve physical fitness.' \u2192 Suggestion\n- 'Here are some tips on how to communicate with a dyslexic person: use clear and simple language, avoid complex sentences, and be patient.' \u2192 Suggestion\n- 'The assistant's message provides detailed prompts for image generation but does not contain any direct command, suggestion, or instruction for the user to perform an action.' \u2192 No Instruction\n\nNow, apply these guidelines to the given message.",
+  "output_options": [
+    {
+      "value": "Direct Command",
+      "description": "The message contains a clear and explicit instruction telling the user to perform a specific action. This may appear within explanations or structured content."
+    },
+    {
+      "value": "Suggestion",
+      "description": "The message contains an optional or indirect recommendation for the user to consider performing an action. This may be phrased as advice, tips, or considerations."
+    },
+    {
+      "value": "No Instruction",
+      "description": "The message does not contain any request, recommendation, or directive for the user to take action. It is purely informative, explanatory, or descriptive."
+    }
+  ],
+  "tools": []
+}

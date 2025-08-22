@@ -1,0 +1,74 @@
+{
+  "ensemble_name": "4-Judge Ensemble",
+  "total_samples": 50,
+  "accuracy": 0.76,
+  "macro_f1": 0.48179271708683474,
+  "macro_precision": 0.5063879210220673,
+  "macro_recall": 0.47222222222222215,
+  "weighted_f1": 0.7347899159663865,
+  "per_class_metrics": {
+    "Direct Command": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "Suggestion": {
+      "precision": 0.7142857142857143,
+      "recall": 0.5,
+      "f1-score": 0.5882352941176471,
+      "support": 10.0
+    },
+    "No Instruction": {
+      "precision": 0.8048780487804879,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.8571428571428571,
+      "support": 36.0
+    }
+  },
+  "agreement_rate": 0.7,
+  "improvement_over_best_individual": -2.5641025641025665,
+  "error_recovery_rate": 0.0,
+  "computational_cost_ratio": 4.0,
+  "abstention_rate": 0.0,
+  "tie_break_rate": 0.08,
+  "individual_accuracies": {
+    "CoT": 0.74,
+    "Role": 0.64,
+    "Few-shot": 0.76,
+    "CoT+Role+FS": 0.78
+  },
+  "judge_agreement_with_ensemble": {
+    "CoT": 0.86,
+    "Role": 0.88,
+    "Few-shot": 0.94,
+    "CoT+Role+FS": 0.94
+  },
+  "confusion_matrix": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      5,
+      5
+    ],
+    [
+      2,
+      1,
+      33
+    ]
+  ],
+  "error_patterns": {
+    "Suggestion → No Instruction": 5,
+    "Direct Command → No Instruction": 3,
+    "No Instruction → Suggestion": 1,
+    "No Instruction → Direct Command": 2,
+    "Direct Command → Suggestion": 1
+  },
+  "tie_break_analysis": {
+    "hierarchy": 4
+  }
+}

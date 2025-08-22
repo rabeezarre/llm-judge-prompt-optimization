@@ -1,0 +1,533 @@
+{
+  "judge_name": "Direct Command Judge Few-Shots Prompt",
+  "total_examples": 50,
+  "accuracy": 0.74,
+  "macro_precision": 0.5909090909090909,
+  "macro_recall": 0.4148148148148148,
+  "macro_f1": 0.4371794871794872,
+  "weighted_precision": 0.7563636363636362,
+  "weighted_recall": 0.74,
+  "weighted_f1": 0.7043076923076923,
+  "confusion_matrix": [
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      2,
+      34,
+      0
+    ],
+    [
+      1,
+      6,
+      3
+    ]
+  ],
+  "classification_report": {
+    "Direct Command": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "No Instruction": {
+      "precision": 0.7727272727272727,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.85,
+      "support": 36.0
+    },
+    "Suggestion": {
+      "precision": 1.0,
+      "recall": 0.3,
+      "f1-score": 0.46153846153846156,
+      "support": 10.0
+    },
+    "accuracy": 0.74,
+    "macro avg": {
+      "precision": 0.5909090909090909,
+      "recall": 0.4148148148148148,
+      "f1-score": 0.4371794871794872,
+      "support": 50.0
+    },
+    "weighted avg": {
+      "precision": 0.7563636363636362,
+      "recall": 0.74,
+      "f1-score": 0.7043076923076923,
+      "support": 50.0
+    }
+  },
+  "error_analysis": {
+    "total_errors": 13,
+    "system_errors": {},
+    "prediction_errors": {
+      "Suggestion -> No Instruction": [
+        {
+          "correlation_id": "01983d22-664f-7324-94a0-35fb43ccb736",
+          "predicted": "No Instruction",
+          "expected": "Suggestion",
+          "analysis": "The assistant's message provides information and considerations about going to the gym at 15 years old, but it does not contain any direct command or suggestion for the user to take a specific action. It is purely informative and explanatory."
+        },
+        {
+          "correlation_id": "01983d20-6a8f-7c63-a96f-f6caf1c07268",
+          "predicted": "No Instruction",
+          "expected": "Suggestion",
+          "analysis": "The message provides informative tips and advice on how to communicate with a dyslexic person, but it does not contain any direct commands or suggestions for the user to perform a specific action. It is purely educational and does not instruct the user to do anything."
+        },
+        {
+          "correlation_id": "019832a1-243d-7933-b683-8c2f650ec8a5",
+          "predicted": "No Instruction",
+          "expected": "Suggestion",
+          "analysis": "The assistant's message is providing feedback and corrections on the student's grammar without instructing the user to perform any specific action. It is purely informative and explanatory."
+        },
+        {
+          "correlation_id": "01980e99-f3b3-70aa-8a0c-9c6174e4b060",
+          "predicted": "No Instruction",
+          "expected": "Suggestion",
+          "analysis": "The assistant provides a detailed sample response and tips for writing a Task 1 flowchart or process description for IELTS, but it does not contain any direct command or suggestion for the user to perform a specific action. It is purely informative and instructional."
+        },
+        {
+          "correlation_id": "0197f1b0-e194-78a1-af6d-fceada0348b1",
+          "predicted": "No Instruction",
+          "expected": "Suggestion",
+          "analysis": "The assistant's message provides guidelines and examples for structuring lists in writing but does not contain any direct command or suggestion for the user to perform a specific action. It is purely informative and educational."
+        },
+        {
+          "correlation_id": "0197f50d-91e8-7cab-a997-f1d19f15565b",
+          "predicted": "No Instruction",
+          "expected": "Suggestion",
+          "analysis": "The assistant's message provides a list of steps and strategies to optimize Firefox 32-bit performance on Windows 11. However, it does not contain any direct command or suggestion for the user to perform a specific action immediately. Instead, it offers information and options for the user to consider and act upon at their discretion."
+        }
+      ],
+      "Direct Command -> No Instruction": [
+        {
+          "correlation_id": "01982357-72ff-7a31-827c-fa63129b9c25",
+          "predicted": "No Instruction",
+          "expected": "Direct Command",
+          "analysis": "The message provides a detailed guide on how to cook pre-made store-bought pulled pork on a gas BBQ, but it does not contain any direct command or suggestion for the user to perform a specific action. It is purely informational."
+        },
+        {
+          "correlation_id": "019860bc-4d37-7990-a166-42c7715c30c5",
+          "predicted": "No Instruction",
+          "expected": "Direct Command",
+          "analysis": "The assistant's message provides a detailed recipe for pancakes, including a list of ingredients and step-by-step instructions. However, it does not contain any direct command or suggestion for the user to perform an action. The message is purely informative and instructional, focusing on delivering information rather than directing the user to do something."
+        },
+        {
+          "correlation_id": "01987098-2ada-714f-8e04-26b5a846bb11",
+          "predicted": "No Instruction",
+          "expected": "Direct Command",
+          "analysis": "The assistant provides detailed information and instructions on how to create and enable a systemd service file, but it does not explicitly tell the user to perform any action. Instead, it explains the steps and the content of the service file, leaving it up to the user to decide whether to follow them."
+        },
+        {
+          "correlation_id": "01981e42-daac-7eec-a6cf-c99d5f3faf0d",
+          "predicted": "No Instruction",
+          "expected": "Direct Command",
+          "analysis": "The assistant's message provides information about how the Apple Watch can use Wi-Fi while Airplane Mode is enabled, but it does not contain any direct command or suggestion for the user to perform a specific action. It is purely informational."
+        }
+      ],
+      "Suggestion -> Direct Command": [
+        {
+          "correlation_id": "0197f50a-5926-7216-bb67-258cefb1656a",
+          "predicted": "Direct Command",
+          "expected": "Suggestion",
+          "analysis": "The user explicitly asks for the scores, which is a clear and direct request for specific information. The assistant's response does not provide the requested information but instead directs the user to alternative sources, which is a form of indirect instruction to take action."
+        }
+      ],
+      "No Instruction -> Direct Command": [
+        {
+          "correlation_id": "01988541-dc5a-778d-b337-67fc0eb85eb5",
+          "predicted": "Direct Command",
+          "expected": "No Instruction",
+          "analysis": "The assistant's message contains a clear and explicit instruction to provide 5 example sentences and 5 opposite words, as requested by the user. The examples and opposites are presented in a structured format, fulfilling the user's request directly."
+        },
+        {
+          "correlation_id": "019885ae-76a9-7bdf-b76a-b84769a9d2a6",
+          "predicted": "Direct Command",
+          "expected": "No Instruction",
+          "analysis": "The assistant's message contains a clear and explicit instruction telling the user to perform a specific action, which is to answer the multiple-choice question in a specified format."
+        }
+      ]
+    },
+    "correct_predictions": 37
+  },
+  "failure_patterns": [
+    {
+      "error_type": "Suggestion -> No Instruction",
+      "frequency": 6,
+      "percentage": 12.0,
+      "example_ids": [
+        "01983d22-664f-7324-94a0-35fb43ccb736",
+        "01983d20-6a8f-7c63-a96f-f6caf1c07268",
+        "019832a1-243d-7933-b683-8c2f650ec8a5"
+      ],
+      "common_themes": [
+        "specific",
+        "message",
+        "provides",
+        "contain",
+        "direct",
+        "purely",
+        "informative",
+        "perform",
+        "command",
+        "suggestion"
+      ]
+    },
+    {
+      "error_type": "Direct Command -> No Instruction",
+      "frequency": 4,
+      "percentage": 8.0,
+      "example_ids": [
+        "01982357-72ff-7a31-827c-fa63129b9c25",
+        "019860bc-4d37-7990-a166-42c7715c30c5",
+        "01987098-2ada-714f-8e04-26b5a846bb11"
+      ],
+      "common_themes": [
+        "message",
+        "provides",
+        "perform",
+        "detailed",
+        "contain",
+        "direct",
+        "command",
+        "suggestion",
+        "purely",
+        "information"
+      ]
+    },
+    {
+      "error_type": "No Instruction -> Direct Command",
+      "frequency": 2,
+      "percentage": 4.0,
+      "example_ids": [
+        "01988541-dc5a-778d-b337-67fc0eb85eb5",
+        "019885ae-76a9-7bdf-b76a-b84769a9d2a6"
+      ],
+      "common_themes": [
+        "message",
+        "contains",
+        "clear",
+        "explicit",
+        "instruction"
+      ]
+    }
+  ],
+  "improvement_suggestions": [
+    "**Over-reliance on explicit commands**: The judge tends to misclassify messages as \"No Instruction\" when they contain implicit suggestions or indirect commands. This is evident in the \"Suggestion -> No Instruction\" and \"Direct Command -> No Instruction\" error types. The judge seems to require explicit phrases like \"you should\" or \"please do\" to classify a message as a suggestion or direct command.",
+    "**Misinterpretation of informative messages**: The judge often misclassifies informative messages with actionable advice as \"No Instruction\". For instance, messages providing tips, guidelines, or strategies are classified as \"No Instruction\" when they should be \"Suggestion\".",
+    "**Lack of context consideration**: The judge does not seem to consider the context or the user's potential response to the assistant's message. For example, in the \"No Instruction -> Direct Command\" error type, the judge classifies messages as direct commands when they are merely providing information or examples in response to a user's request.",
+    "**Over-simplification of classification**: The judge's classification seems to be based on simple keyword matching or surface-level analysis, leading to misclassifications. For example, messages containing detailed instructions or step-by-step guides are classified as \"No Instruction\".",
+    "**Inconsistent application of classification criteria**: The judge's classification criteria seem to be applied inconsistently. For instance, some messages with similar structures and intents are classified differently.",
+    "**Lack of understanding of user intent**: The judge does not seem to consider the user's intent or the potential impact of the assistant's message on the user's actions. For example, messages providing information that could lead the user to take a specific action are classified as \"No Instruction\".",
+    "**Insufficient training data**: The judge's performance might be limited by the small number of examples provided in the few-shot prompt. With only three examples, the judge might not have a comprehensive understanding of the classification criteria."
+  ],
+  "examples_by_category": {
+    "correct_predictions": [
+      {
+        "correlation_id": "01983d19-cac7-7874-ab7d-054bfc474307",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides detailed prompts for image generation but does not contain any direct command, suggestion, or instruction for the user to perform an action. It is purely informative and descriptive."
+      },
+      {
+        "correlation_id": "01983d15-dcf2-7fb5-aafa-e8bcb6026db0",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's messages are all questions or prompts for discussion, not instructions or suggestions for the user to take action. They are designed to engage the user in thinking and responding within the context of the forum topics, but they do not direct or suggest any specific action to be taken."
+      },
+      {
+        "correlation_id": "01982358-6576-7a66-9dc7-4ddfa422c3b5",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant provides an explanation and recommendation for a solution but does not explicitly instruct the user to perform any action. It is informative and suggests a course of action without issuing a direct command or suggestion."
+      },
+      {
+        "correlation_id": "01982351-723e-73ab-9096-02338e9c7a8a",
+        "predicted": "Suggestion",
+        "expected": "Suggestion",
+        "analysis": "The assistant provides a list of optional steps the user can consider to improve their transfer speed. These steps are presented as recommendations rather than direct commands, making it a suggestion."
+      },
+      {
+        "correlation_id": "01982346-caaa-7543-b338-1c9e6f0f08a8",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides a detailed JSON plan with weighted checks for the task 'general.' It does not contain any request, recommendation, or directive for the user to take action. Instead, it presents information and a structured plan without any explicit or implicit instructions."
+      },
+      {
+        "correlation_id": "0197f50e-6b08-7d26-b0a9-6ba33c46bd62",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is purely informative and does not contain any direct command or suggestion for the user to perform an action. It provides information about the board games and toys on sale, but does not instruct the user to do anything specific."
+      },
+      {
+        "correlation_id": "01982db6-30ef-7d92-993f-27c3bbbbcf39",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's response provides a list of FAQ questions and answers about Nana-Gribizi, offering informative content without any explicit or implicit instructions, commands, or suggestions for the user to take action. The content is purely informational, aiming to educate the user about various aspects of traveling to Nana-Gribizi."
+      },
+      {
+        "correlation_id": "01983d27-903f-74bc-aab3-55a4b89ac23e",
+        "predicted": "Suggestion",
+        "expected": "Suggestion",
+        "analysis": "The assistant provides a list of considerations and factors to think about when deciding whether a rice cooker would be a good gift. It does not give a direct command or instruction but rather offers a recommendation or suggestion for the user to consider."
+      },
+      {
+        "correlation_id": "01983d26-40cd-7c7c-a5d7-63970e263a94",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides information about the causes and mitigation strategies for a MySQL deadlock error. It does not contain any direct commands or suggestions for the user to perform specific actions. Instead, it offers explanatory content and general advice, which falls under the 'No Instruction' category."
+      },
+      {
+        "correlation_id": "01988541-8c07-74de-9455-eddd35b07049",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides information and evidence related to the procedure for notifying a claim under the policy, but it does not contain any direct command or suggestion for the user to perform an action. It is purely informative and explanatory."
+      },
+      {
+        "correlation_id": "0198853e-ae3d-7751-a0be-5845dd5fea82",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is a detailed response to a user's request, providing information and analysis without any explicit or implicit directive for the user to take action. It is purely informative and does not contain a command or suggestion."
+      },
+      {
+        "correlation_id": "0198853e-3e1d-720c-9e48-c58743b0a6aa",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides an evaluation and analysis of the product's suitability for homemade recreation, but it does not contain any direct command or suggestion for the user to perform a specific action. It is purely informative and analytical."
+      },
+      {
+        "correlation_id": "01988539-9bd7-7b07-aca6-0774c5920a48",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is a block of Java code. It does not contain any request, recommendation, or directive for the user to take action. It is purely informational, providing the refactored code as requested."
+      },
+      {
+        "correlation_id": "01988537-97fb-7361-ae39-a32d15e8063e",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is a devotional text that provides information, reflection, and a prayer. It does not contain any direct command or suggestion for the user to perform a specific action. The message is purely informative and encouraging, fitting the 'No Instruction' category."
+      },
+      {
+        "correlation_id": "0197f510-98cf-7af7-af0f-1688aeb8a72b",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides a list of movie recommendations based on the user's preferences and does not contain any explicit instruction, command, or suggestion for the user to take action. It is purely informative."
+      },
+      {
+        "correlation_id": "01986f99-2f08-7241-9c5e-3ca3f71d6850",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is a detailed description of what learning the flute would look like if it were ridiculously easy. It does not contain any request, recommendation, or directive for the user to take action. Instead, it provides an imaginative scenario and explanation without any instructions."
+      },
+      {
+        "correlation_id": "01986129-09df-739a-ad32-168775bcfcd9",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is purely informative, providing detailed information about CNC Tool Programmers without any explicit or implicit directive for the user to take action. It does not contain a direct command or a suggestion for the user to perform any task."
+      },
+      {
+        "correlation_id": "019860e6-53d8-70f5-9109-2ca701104181",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides a corrected version of the user's text without any explicit or implicit directive for the user to perform a specific action. It does not contain a direct command or a suggestion; it merely presents information."
+      },
+      {
+        "correlation_id": "0198600f-f210-76ed-a089-69280a1a3ee1",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is purely informative and educational. It explains the process of integrating 1/(x^2 + 1) and arrives at the solution, but it does not contain any direct command or suggestion for the user to perform an action. The message is focused on providing information and reasoning, which falls under the 'No Instruction' category."
+      },
+      {
+        "correlation_id": "01987090-1d3b-7615-9edb-d10c9cd3509e",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is a detailed analysis and thought process regarding the given task. It does not contain any direct command or suggestion for the user to perform an action. Instead, it provides a logical breakdown of the task and arrives at a conclusion based on the given information."
+      },
+      {
+        "correlation_id": "01987083-8043-71a5-ab5a-22854f9ac9ec",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's messages are purely informational, providing specific factual answers to the questions posed by the user. There are no commands or suggestions given to the user, only factual responses to the requested information."
+      },
+      {
+        "correlation_id": "019870a9-2304-716e-9f04-dec34845ae5c",
+        "predicted": "Suggestion",
+        "expected": "Suggestion",
+        "analysis": "The assistant provides a recommendation on how to improve the sentence, offering a revised version as an option for the user to consider. It does not explicitly command the user to make changes but suggests a better way to structure the sentence."
+      },
+      {
+        "correlation_id": "01981e43-7abf-7c56-a52c-84393cd64071",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message '10' is simply providing the expected output as requested by the user. There is no instruction, command, or suggestion given to the user to perform any action. It is purely informational."
+      },
+      {
+        "correlation_id": "01981e43-668c-78e8-962c-1bf1c97e8904",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is a title generated based on the user's request. It does not contain any request, recommendation, or directive for the user to take action. It is purely informative and does not fall into the categories of Direct Command or Suggestion."
+      },
+      {
+        "correlation_id": "01981e43-6ca9-7c92-9a94-54974e072c39",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides information (that there are no people in the context of the question) but does not contain any request, recommendation, or directive for the user to take action. It is purely informative."
+      },
+      {
+        "correlation_id": "01981e43-06b5-7743-9f4a-0af3c26891d9",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The message provides information about the shelf life and storage of alcohol-free gin but does not contain any explicit instruction, command, or suggestion for the user to take action. It is purely informative."
+      },
+      {
+        "correlation_id": "01981e42-e870-7882-8ec4-e1fe04aad709",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant provides information about the best times to visit Ottawa and describes the characteristics of each season. However, it does not contain any direct command or suggestion for the user to take any specific action. It is purely informative."
+      },
+      {
+        "correlation_id": "01981e42-cbc5-7e11-8627-fc0862d7b110",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's messages provide informative explanations about the differences between 'accident year' and 'calendar year', and 'calendar year' and 'underwriting year' in the insurance industry. The messages do not contain any direct commands or suggestions for the user to perform any specific actions. They are purely informative and explanatory in nature."
+      },
+      {
+        "correlation_id": "01987af5-ea40-7fc2-9a2a-50f955fcafc2",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message is a response to a customer's update about their order shipment. It acknowledges the information provided and expresses gratitude and anticipation, but it does not contain any direct command or suggestion for the user to perform a specific action. The message is purely informative and polite, fitting the 'No Instruction' category."
+      },
+      {
+        "correlation_id": "01987af5-cea3-7d59-a6f5-bc8b446c3bc6",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides a detailed comparison and reasoning for why Audio B was chosen over Audio A, but it does not contain any request, recommendation, or directive for the user to take action. It is purely informative and explanatory."
+      },
+      {
+        "correlation_id": "01987af5-d208-7feb-b382-fab01ab10df6",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides an explanation and implementation of a box blur filter for image smoothing. It does not contain any direct command or suggestion for the user to perform a specific action. Instead, it offers detailed information and code examples related to the user's request."
+      },
+      {
+        "correlation_id": "01987af5-653c-747d-b588-43a6232e31b9",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides informative content about what a non-reliance letter is, including its purpose, content, common usage, legal protection, and customization. It does not contain any direct command or suggestion for the user to perform any specific action. The message is purely informational and does not instruct the user to do anything."
+      },
+      {
+        "correlation_id": "01987af4-fe17-7aa8-b682-1d7575b0f2b1",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides an analysis and a final answer to the user's question, but it does not contain any request, recommendation, or directive for the user to take action. It is purely informative and does not instruct the user to do anything."
+      },
+      {
+        "correlation_id": "019885b0-641d-7b4e-afe1-30cabc0c4fbe",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides a detailed explanation and reasoning process to answer a multiple-choice question. It does not contain any direct command or suggestion for the user to perform an action. The final answer is provided as a conclusion of the reasoning process, but it is not framed as an instruction."
+      },
+      {
+        "correlation_id": "019885af-7ec1-78e8-8b14-5b5806ced801",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides a detailed explanation and calculation to solve the problem but does not contain any direct command or suggestion for the user to perform an action. It simply presents information and arrives at an answer."
+      },
+      {
+        "correlation_id": "01982db6-9595-72c1-bf33-a1ae1e8c58ca",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message provides a list of social media caption suggestions for the 14th World Chambers Congress app. It does not contain any direct command or explicit instruction for the user to perform a specific action. Instead, it offers optional content that the user can consider or use at their discretion."
+      },
+      {
+        "correlation_id": "01982db6-2e3f-7596-acc1-ddea2bbc0a4d",
+        "predicted": "No Instruction",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message '37' is a simple response to the user's request for a random number. It does not contain any instruction, command, or suggestion for the user to take any action. It is purely informational."
+      }
+    ],
+    "incorrect_predictions": [
+      {
+        "correlation_id": "01983d22-664f-7324-94a0-35fb43ccb736",
+        "predicted": "No Instruction",
+        "expected": "Suggestion",
+        "analysis": "The assistant's message provides information and considerations about going to the gym at 15 years old, but it does not contain any direct command or suggestion for the user to take a specific action. It is purely informative and explanatory."
+      },
+      {
+        "correlation_id": "01983d20-6a8f-7c63-a96f-f6caf1c07268",
+        "predicted": "No Instruction",
+        "expected": "Suggestion",
+        "analysis": "The message provides informative tips and advice on how to communicate with a dyslexic person, but it does not contain any direct commands or suggestions for the user to perform a specific action. It is purely educational and does not instruct the user to do anything."
+      },
+      {
+        "correlation_id": "019832a1-243d-7933-b683-8c2f650ec8a5",
+        "predicted": "No Instruction",
+        "expected": "Suggestion",
+        "analysis": "The assistant's message is providing feedback and corrections on the student's grammar without instructing the user to perform any specific action. It is purely informative and explanatory."
+      },
+      {
+        "correlation_id": "01980e99-f3b3-70aa-8a0c-9c6174e4b060",
+        "predicted": "No Instruction",
+        "expected": "Suggestion",
+        "analysis": "The assistant provides a detailed sample response and tips for writing a Task 1 flowchart or process description for IELTS, but it does not contain any direct command or suggestion for the user to perform a specific action. It is purely informative and instructional."
+      },
+      {
+        "correlation_id": "0197f1b0-e194-78a1-af6d-fceada0348b1",
+        "predicted": "No Instruction",
+        "expected": "Suggestion",
+        "analysis": "The assistant's message provides guidelines and examples for structuring lists in writing but does not contain any direct command or suggestion for the user to perform a specific action. It is purely informative and educational."
+      },
+      {
+        "correlation_id": "01982357-72ff-7a31-827c-fa63129b9c25",
+        "predicted": "No Instruction",
+        "expected": "Direct Command",
+        "analysis": "The message provides a detailed guide on how to cook pre-made store-bought pulled pork on a gas BBQ, but it does not contain any direct command or suggestion for the user to perform a specific action. It is purely informational."
+      },
+      {
+        "correlation_id": "0197f50d-91e8-7cab-a997-f1d19f15565b",
+        "predicted": "No Instruction",
+        "expected": "Suggestion",
+        "analysis": "The assistant's message provides a list of steps and strategies to optimize Firefox 32-bit performance on Windows 11. However, it does not contain any direct command or suggestion for the user to perform a specific action immediately. Instead, it offers information and options for the user to consider and act upon at their discretion."
+      },
+      {
+        "correlation_id": "0197f50a-5926-7216-bb67-258cefb1656a",
+        "predicted": "Direct Command",
+        "expected": "Suggestion",
+        "analysis": "The user explicitly asks for the scores, which is a clear and direct request for specific information. The assistant's response does not provide the requested information but instead directs the user to alternative sources, which is a form of indirect instruction to take action."
+      },
+      {
+        "correlation_id": "01988541-dc5a-778d-b337-67fc0eb85eb5",
+        "predicted": "Direct Command",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message contains a clear and explicit instruction to provide 5 example sentences and 5 opposite words, as requested by the user. The examples and opposites are presented in a structured format, fulfilling the user's request directly."
+      },
+      {
+        "correlation_id": "019860bc-4d37-7990-a166-42c7715c30c5",
+        "predicted": "No Instruction",
+        "expected": "Direct Command",
+        "analysis": "The assistant's message provides a detailed recipe for pancakes, including a list of ingredients and step-by-step instructions. However, it does not contain any direct command or suggestion for the user to perform an action. The message is purely informative and instructional, focusing on delivering information rather than directing the user to do something."
+      },
+      {
+        "correlation_id": "01987098-2ada-714f-8e04-26b5a846bb11",
+        "predicted": "No Instruction",
+        "expected": "Direct Command",
+        "analysis": "The assistant provides detailed information and instructions on how to create and enable a systemd service file, but it does not explicitly tell the user to perform any action. Instead, it explains the steps and the content of the service file, leaving it up to the user to decide whether to follow them."
+      },
+      {
+        "correlation_id": "01981e42-daac-7eec-a6cf-c99d5f3faf0d",
+        "predicted": "No Instruction",
+        "expected": "Direct Command",
+        "analysis": "The assistant's message provides information about how the Apple Watch can use Wi-Fi while Airplane Mode is enabled, but it does not contain any direct command or suggestion for the user to perform a specific action. It is purely informational."
+      },
+      {
+        "correlation_id": "019885ae-76a9-7bdf-b76a-b84769a9d2a6",
+        "predicted": "Direct Command",
+        "expected": "No Instruction",
+        "analysis": "The assistant's message contains a clear and explicit instruction telling the user to perform a specific action, which is to answer the multiple-choice question in a specified format."
+      }
+    ],
+    "system_errors": []
+  },
+  "timestamp": "2025-08-08T02:01:36.834258"
+}

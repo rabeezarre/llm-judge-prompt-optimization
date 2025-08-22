@@ -1,0 +1,21 @@
+{
+  "name": "Direct Command Judge Closed Prompt (Enhanced)",
+  "description": "Identifies the strength of an instruction in an assistant's message with minimal wording.\n\nEnhanced for better reasoning and clarity.",
+  "model_name": "mistral-small-latest",
+  "instructions": "Classify the assistant's message based on the following criteria:\n\n1. **Direct Command**: The message explicitly tells the user to perform a specific action. Look for imperative language, clear directives, or unambiguous instructions.\n2. **Suggestion**: The message offers an optional or indirect recommendation. Look for phrases that provide guidance, tips, or advice without demanding action.\n3. **No Instruction**: The message does not contain any request, recommendation, or directive. Look for informative content, questions, or statements that do not imply any action.\n\nConsider the overall context, tone, and intent of the message. Avoid over-reliance on specific keywords; instead, focus on the message's purpose and how it is phrased.",
+  "output_options": [
+    {
+      "value": "Direct Command",
+      "description": "The message contains a clear and explicit instruction telling the user to perform a specific action. The language is imperative and leaves little room for interpretation."
+    },
+    {
+      "value": "Suggestion",
+      "description": "The message contains an optional or indirect recommendation for the user to consider performing an action. The language is suggestive and provides guidance without demanding action."
+    },
+    {
+      "value": "No Instruction",
+      "description": "The message does not contain any request, recommendation, or directive for the user to take action. The content is informative, questioning, or statement-based without implying any action."
+    }
+  ],
+  "tools": []
+}

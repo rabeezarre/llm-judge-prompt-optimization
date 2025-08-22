@@ -1,0 +1,22 @@
+{
+    "name": "Direct Command Judge Open Prompt",
+    "description": "Identifies the strength of an instruction in an assistant's message using open-ended reasoning.",
+    "model_name": "mistral-small-latest",
+    "instructions": "Read the assistant's message and determine how strong the instruction is. Consider the tone, wording, and directness of the statement before deciding.",
+    "output_options": [
+    {
+        "value": "Direct Command",
+        "description": "The message contains a clear and explicit instruction telling the user to perform a specific action."
+    },
+    {
+        "value": "Suggestion",
+        "description": "The message contains an optional or indirect recommendation for the user to consider performing an action."
+    },
+    {
+        "value": "No Instruction",
+        "description": "The message does not contain any request, recommendation, or directive for the user to take action."
+    }
+    ],
+    "tools": []
+  }
+  

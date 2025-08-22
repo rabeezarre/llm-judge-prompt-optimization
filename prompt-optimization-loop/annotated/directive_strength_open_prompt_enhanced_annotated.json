@@ -1,0 +1,452 @@
+[
+  {
+    "correlation_id": "01983d22-664f-7324-94a0-35fb43ccb736",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative and explanatory. It provides detailed information about the considerations and requirements for a 15-year-old going to the gym, but it does not contain any explicit or implicit instruction or directive for the user to take any specific action. The message is structured as a list of points to consider, which serves to educate the user rather than guide their actions.",
+    "timestamp": "2025-08-18T15:39:09.954708",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01983d20-6a8f-7c63-a96f-f6caf1c07268",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant's message is primarily informative, providing a list of tips for communicating with a dyslexic person. However, the overall intent is to guide the user's actions by suggesting various strategies and adjustments they can make. The language used is not a direct command but rather a series of recommendations, which places it in the 'Suggestion' category.",
+    "timestamp": "2025-08-18T15:39:10.151741",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01983d19-cac7-7874-ab7d-054bfc474307",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant provides detailed prompts for image generation, which are structured as recommendations for the user to consider. While the prompts are specific and could be seen as instructions, they are framed as suggestions to help the user create effective visuals for their article. The language used is more advisory and supportive rather than directive, indicating that the assistant is offering guidance rather than issuing commands.",
+    "timestamp": "2025-08-18T15:39:09.802898",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01983d15-dcf2-7fb5-aafa-e8bcb6026db0",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant's message is not a direct command, as it does not explicitly tell the user to perform a specific action. Instead, it provides a series of provocative questions related to the given topics, which can be seen as suggestions for the user to consider or explore. The questions are phrased in a way that encourages the user to think creatively and engage with the forum topics, but they are not presented as mandatory actions. Therefore, the message falls under the category of 'Suggestion'.",
+    "timestamp": "2025-08-18T15:39:10.170403",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "019832a1-243d-7933-b683-8c2f650ec8a5",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative and explanatory. It provides corrections and explanations for the student's grammatical errors but does not contain any direct commands or suggestions for the user to perform a specific action. The message is focused on analyzing and improving the student's grammar, which is in line with the assistant's role as an expert English teacher. There are no requests, recommendations, or directives for the user to take any action beyond understanding the feedback provided.",
+    "timestamp": "2025-08-18T15:39:10.316391",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01980e99-f3b3-70aa-8a0c-9c6174e4b060",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant provides a detailed example of how to write a response for an IELTS Writing Task 1 about a flowchart or process, along with tips for achieving a band 8 score. While the message is informative, it also includes implicit guidance on how to structure and write the response, which serves as a suggestion for the user to follow. The tips and the sample answer are framed as advice, encouraging the user to consider and apply these strategies in their own writing.",
+    "timestamp": "2025-08-18T15:39:10.812705",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "0197f1b0-e194-78a1-af6d-fceada0348b1",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing guidelines and examples for structuring lists in writing. It does not contain any explicit or implicit directive for the user to perform a specific action. The content is structured as advice and explanation, but it does not instruct the user to do anything specific. It is focused on educating the user about best practices rather than guiding their actions.",
+    "timestamp": "2025-08-18T15:39:10.813019",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01982358-6576-7a66-9dc7-4ddfa422c3b5",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message provides an explanation and recommendation for a solution to optimize load times for a website using Amazon Route 53. It does not contain any explicit directive or command for the user to perform a specific action. Instead, it offers an informative response to the user's question, explaining the best option and why it is suitable. The message is purely explanatory and does not instruct the user to take any action.",
+    "timestamp": "2025-08-18T15:39:11.031825",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01982357-72ff-7a31-827c-fa63129b9c25",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant provides a detailed, step-by-step guide on how to cook pre-made pulled pork on a gas BBQ. While the message is informative, it also implicitly suggests a series of actions the user should consider taking to achieve the desired outcome. The use of phrases like 'Here’s a step-by-step guide to help you' and the structured list of steps indicate that the assistant is guiding the user through a process, which constitutes a suggestion rather than a direct command or purely informative content.",
+    "timestamp": "2025-08-18T15:39:11.177293",
+    "error": null,
+    "expected_output": "Direct Command"
+  },
+  {
+    "correlation_id": "01982351-723e-73ab-9096-02338e9c7a8a",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant's message is primarily informative, providing a list of potential solutions to the user's problem. However, it also contains implicit instructions on what actions the user can take to improve transfer speeds. Each point in the list is a suggestion for the user to consider and potentially act upon, making the overall message a series of suggestions rather than direct commands or purely informative content.",
+    "timestamp": "2025-08-18T15:39:11.231722",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01982346-caaa-7543-b338-1c9e6f0f08a8",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing a detailed JSON plan with weighted checks for the task 'general.' It does not contain any explicit or implicit instructions, recommendations, or directives for the user to take action. The message is focused on presenting structured information and does not guide or influence the user's actions in any way.",
+    "timestamp": "2025-08-18T15:39:11.680419",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "0197f50e-6b08-7d26-b0a9-6ba33c46bd62",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant's message is phrased as an alert and includes a recommendation to check out the board games and toys on sale. While it doesn't explicitly command the user to do anything, it strongly suggests taking action by using phrases like 'Check out' and 'Don't miss out'. The use of emojis and the urgent tone further imply a suggestion to engage with the content.",
+    "timestamp": "2025-08-18T15:39:11.663341",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "0197f50d-91e8-7cab-a997-f1d19f15565b",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant provides a list of steps to optimize Firefox 32-bit performance on Windows 11. Each step is phrased as a suggestion or recommendation rather than a direct command. The language used is advisory, guiding the user on what they can do to improve performance. The overall tone is instructive but not directive, making it a series of suggestions rather than direct commands.",
+    "timestamp": "2025-08-18T15:39:12.165701",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "0197f50a-5926-7216-bb67-258cefb1656a",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant's message contains several suggestions on how the user can approach making their own predictions for football matches. While the assistant does not provide direct scores or predictions, it offers guidance on steps the user can take to make informed predictions. The message is phrased as advice and recommendations, which fall under the category of suggestions.",
+    "timestamp": "2025-08-18T15:39:11.892911",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01982db6-30ef-7d92-993f-27c3bbbbcf39",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing answers to the user's request for FAQ questions and answers about Nana-Gribizi. There are no explicit or implicit instructions, commands, or suggestions for the user to take any action. The content is structured as a list of questions and answers, with StayWhere mentioned as a source for trusted accommodation advice, but this is purely informational and does not constitute an instruction.",
+    "timestamp": "2025-08-18T15:39:12.077296",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01983d27-903f-74bc-aab3-55a4b89ac23e",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant's message provides a series of considerations and points to ponder, which collectively serve as a suggestion. The message does not issue a direct command but rather offers guidance on how to decide whether a rice cooker would be a suitable gift. The use of phrases like 'Here are a few considerations to help you decide' and 'Ultimately, if she enjoys cooking and would find a rice cooker useful, it could be a great gift' indicates that the assistant is suggesting a course of action rather than mandating it. The message is informative but also implicitly guides the user's decision-making process.",
+    "timestamp": "2025-08-18T15:39:13.008107",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01983d26-40cd-7c7c-a5d7-63970e263a94",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative and explanatory. It provides detailed information about the causes of the MySQL deadlock exception and suggests strategies to mitigate such issues. However, it does not explicitly instruct the user to perform any specific action. The content is structured as a list of reasons and mitigation strategies, but it does not contain a direct command or suggestion for the user to take immediate action. The message is designed to educate and inform rather than to direct.",
+    "timestamp": "2025-08-18T15:39:12.853747",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01988541-dc5a-778d-b337-67fc0eb85eb5",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Direct Command",
+    "analysis": "The assistant's message contains a clear, explicit instruction to provide 5 example sentences and 5 opposite words, as requested by the user. The examples are provided in a numbered list, and the opposites are labeled as '1.' indicating the start of the list. The assistant is directly responding to the user's request, which is a directive or command.",
+    "timestamp": "2025-08-18T15:39:12.690497",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01988541-8c07-74de-9455-eddd35b07049",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing a direct answer to the user's question about the procedure for notifying a claim under the policy. It includes supporting evidence from the document context and a certainty score, but there is no guidance, advice, or direction that influences the user's actions. The message does not contain any request, recommendation, or directive for the user to take action.",
+    "timestamp": "2025-08-18T15:39:12.880994",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "0198853e-ae3d-7751-a0be-5845dd5fea82",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing a structured response to the user's question. It does not contain any explicit or implicit instructions, directives, or suggestions for the user to take any action. The content is focused on explaining what a risk analysis report should include, but it does not guide the user to perform any specific task or make any decisions.",
+    "timestamp": "2025-08-18T15:39:13.051337",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "0198853e-3e1d-720c-9e48-c58743b0a6aa",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing an evaluation of the product's suitability for homemade recreation. It does not contain any explicit or implicit instructions, directives, or suggestions for the user to perform any action. The message is structured as a detailed analysis and does not guide or influence the user's actions beyond providing information.",
+    "timestamp": "2025-08-18T15:39:13.405507",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01988539-9bd7-7b07-aca6-0774c5920a48",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely the refactored Java code as requested by the user. There is no guidance, advice, or direction given to the user. The message does not contain any request, recommendation, or directive for the user to take action. It is purely informative, providing the refactored code as instructed.",
+    "timestamp": "2025-08-18T15:39:13.843948",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01988537-97fb-7361-ae39-a32d15e8063e",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is a devotional text that provides an interpretation of a Bible verse, a reflection, and a concluding prayer. It does not contain any explicit or implicit instructions, requests, or recommendations for the user to take any specific action. The content is purely informative and explanatory, focusing on spiritual reflection and encouragement.",
+    "timestamp": "2025-08-18T15:39:13.587444",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "0197f510-98cf-7af7-af0f-1688aeb8a72b",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Direct Command",
+    "analysis": "The assistant's message contains a clear directive to follow a specific process (identifying preferred genres, analyzing ratings, and ensuring diversity in production companies) before providing a list of movie recommendations. The phrase 'Then write in one line, prefixed with “Recommendation:”' explicitly instructs the assistant on how to format the output. This is a direct command as it specifies the exact steps and format the assistant should follow.",
+    "timestamp": "2025-08-18T15:39:13.961421",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01986f99-2f08-7241-9c5e-3ca3f71d6850",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative and explanatory. It describes a hypothetical scenario where learning the flute is ridiculously easy, detailing various features and elements that would make the learning process effortless. The message does not contain any direct commands or suggestions for the user to perform any specific action. It is focused on providing a detailed and imaginative explanation of the scenario, without any intent to guide or influence the user's actions.",
+    "timestamp": "2025-08-18T15:39:14.052971",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01986129-09df-739a-ad32-168775bcfcd9",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative and explanatory. It provides detailed information about who CNC Tool Programmers are, their roles, skills, and work environments. The message does not contain any direct commands or suggestions for the user to perform any action. It is structured to educate the user about the topic without influencing their actions.",
+    "timestamp": "2025-08-18T15:39:14.335469",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "019860e6-53d8-70f5-9109-2ca701104181",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant's message contains a suggestion embedded within the corrected sentence. The phrase 'it would be best to have two processors at the start to be sure' implies a recommendation for the user to consider having two processors. This is not a direct command but an indirect recommendation, making it a suggestion.",
+    "timestamp": "2025-08-18T15:39:14.255811",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "019860bc-4d37-7990-a166-42c7715c30c5",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing a recipe for pancakes in a structured format. While the message outlines steps to make pancakes, it does not explicitly or implicitly instruct the user to perform any action. The content is presented as a recipe, which is inherently instructional in nature, but the assistant does not direct the user to follow the steps or take any specific action. The message is purely explanatory and does not contain any directive or suggestion for the user to act.",
+    "timestamp": "2025-08-18T15:39:15.149543",
+    "error": null,
+    "expected_output": "Direct Command"
+  },
+  {
+    "correlation_id": "0198600f-f210-76ed-a089-69280a1a3ee1",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely explanatory and informative. It walks through the thought process of solving an integral problem, detailing the steps and reasoning behind the solution. There is no explicit or implicit instruction for the user to perform any action. The message is focused on providing a detailed explanation and verification of the solution to the integral problem.",
+    "timestamp": "2025-08-18T15:39:14.647601",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01987098-2ada-714f-8e04-26b5a846bb11",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Direct Command",
+    "analysis": "The assistant's message contains clear, explicit instructions on how to create and enable a systemd service file. The message includes step-by-step commands that the user should follow to achieve the desired outcome. These commands are phrased as directives, such as 'Create the service file', 'Copy and paste the content above into the file', 'Reload the systemd daemon', 'Enable the service', and 'Start the service'. These directives are direct commands, as they explicitly tell the user what actions to take.",
+    "timestamp": "2025-08-18T15:39:15.293067",
+    "error": null,
+    "expected_output": "Direct Command"
+  },
+  {
+    "correlation_id": "01987090-1d3b-7615-9edb-d10c9cd3509e",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is a detailed analysis and explanation of the given text, breaking down potential triggers and event types. It does not contain any explicit or implicit instructions, recommendations, or directives for the user to take any action. The message is purely informative and explanatory, focusing on the task of identifying events and their types in the provided text.",
+    "timestamp": "2025-08-18T15:39:16.375675",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01987083-8043-71a5-ab5a-22854f9ac9ec",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative and does not contain any request, recommendation, or directive for the user to take action. It provides specific factual questions and answers based on the given summaries, adhering strictly to the output format and requirements specified by the user. There is no guidance, advice, or direction that could influence the user's actions.",
+    "timestamp": "2025-08-18T15:39:15.147876",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "019870a9-2304-716e-9f04-dec34845ae5c",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant provides a revised version of the user's sentence, which serves as a suggestion for improvement. The message is phrased as advice on how to make the sentence clearer, rather than a direct command or a purely informative statement. The assistant is guiding the user on how to improve their communication, which falls under the category of a suggestion.",
+    "timestamp": "2025-08-18T15:39:15.517286",
+    "error": null,
+    "expected_output": "Suggestion"
+  },
+  {
+    "correlation_id": "01981e43-7abf-7c56-a52c-84393cd64071",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message contains only the expected output (10) as requested by the user. There is no guidance, advice, or direction provided to the user. The message is purely informative and does not influence the user's actions in any way.",
+    "timestamp": "2025-08-18T15:39:15.863582",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01981e43-668c-78e8-962c-1bf1c97e8904",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is a direct response to the user's request for an SEO-optimized title. It does not contain any guidance, advice, or direction for the user to perform any action. The message is purely informative, providing the requested title without any additional instructions or suggestions.",
+    "timestamp": "2025-08-18T15:39:17.707461",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01981e43-6ca9-7c92-9a94-54974e072c39",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message provides an answer to the user's question but does not contain any request, recommendation, or directive for the user to take action. It is purely informative and explanatory, focusing on answering the query about the logical question.",
+    "timestamp": "2025-08-18T15:39:15.902094",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01981e43-06b5-7743-9f4a-0af3c26891d9",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant provides information about the shelf life of alcohol-free gin and offers advice on how to extend it, such as storing it in the refrigerator and ensuring the bottle is tightly sealed. These points are phrased as suggestions rather than direct commands, as they are presented as optional actions the user can consider to maintain the quality of the product. The message also includes a general recommendation to check the label for specific instructions, which is another form of suggestion.",
+    "timestamp": "2025-08-18T15:39:16.646993",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01981e42-e870-7882-8ec4-e1fe04aad709",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing details about the best times to visit Ottawa and what to expect during each season. There is no explicit or implicit instruction, suggestion, or directive for the user to take any action. The content is structured as a factual overview, focusing on sharing information rather than guiding the user's behavior.",
+    "timestamp": "2025-08-18T15:39:16.821854",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01981e42-daac-7eec-a6cf-c99d5f3faf0d",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, explaining how the Apple Watch's Airplane Mode works and how to manually enable Wi-Fi while it is on. There is no explicit or implicit instruction for the user to perform any action. The message is structured as an explanation and does not contain any directive, command, or suggestion for the user to take any specific action.",
+    "timestamp": "2025-08-18T15:39:16.870528",
+    "error": null,
+    "expected_output": "Direct Command"
+  },
+  {
+    "correlation_id": "01981e42-cbc5-7e11-8627-fc0862d7b110",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message provides a detailed explanation of the terms 'calendar year' and 'underwriting year' in the context of the insurance industry. It breaks down the definitions, purposes, and examples for each term, and highlights the key differences between them. The message is purely informative, aiming to educate the user on these concepts without giving any directive or suggestion for action. Therefore, it does not contain any instruction.",
+    "timestamp": "2025-08-18T15:39:17.294731",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01987af5-ea40-7fc2-9a2a-50f955fcafc2",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is a response to the user's request for a specific email reply. It provides a pre-formatted email response and subject line, but it does not contain any instruction, guidance, or advice for the user to perform any action. The message is purely informative, fulfilling the user's request without any directive or suggestion for further action.",
+    "timestamp": "2025-08-18T15:39:17.676392",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01987af5-cea3-7d59-a6f5-bc8b446c3bc6",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative and explanatory. It provides a detailed reasoning for why Audio B was chosen as the winner in the comparison task. There is no guidance, advice, or direction given to the user to perform any action. The message does not contain any request, recommendation, or directive for the user to take action. It is purely informative and explanatory, focusing on the comparison and reasoning behind the choice.",
+    "timestamp": "2025-08-18T15:39:17.746941",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01987af5-d208-7feb-b382-fab01ab10df6",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message provides a detailed explanation and implementation of a box blur filter for image smoothing in both C++ and C. It outlines the approach, handles boundary conditions, and discusses performance and thread safety. The content is purely informative and explanatory, offering code examples and explanations without any explicit or implicit directive or suggestion for the user to perform any specific action. Therefore, it does not contain any instruction.",
+    "timestamp": "2025-08-18T15:39:17.775430",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01987af5-653c-747d-b588-43a6232e31b9",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely informative, providing a detailed explanation of what a non-reliance letter is, its purpose, content, common usage, legal protection, and customization. The message does not contain any direct commands or suggestions for the user to take any specific action. It is structured as an informative response to the user's query, focusing on educating the user about the topic without guiding or directing them to perform any particular task.",
+    "timestamp": "2025-08-18T15:39:18.627969",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01987af4-fe17-7aa8-b682-1d7575b0f2b1",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message is purely analytical and informative. It provides a step-by-step breakdown of the data to determine whether the Series B stock outperformed the Series A stock based on the 5-year total return. The message does not contain any request, recommendation, or directive for the user to take action. It is purely explanatory and concludes with a final answer based on the analysis.",
+    "timestamp": "2025-08-18T15:39:18.784812",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "019885b0-641d-7b4e-afe1-30cabc0c4fbe",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Direct Command",
+    "analysis": "The assistant's message contains a clear instruction to the user to answer the multiple-choice question in a specific format. The instruction is explicit and directive, asking the user to 'Answer the following multiple choice question' and specifying the format for the final line of the response. This directive is a direct command as it clearly tells the user what action to take and how to format their response.",
+    "timestamp": "2025-08-18T15:39:18.853960",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "019885af-7ec1-78e8-8b14-5b5806ced801",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Direct Command",
+    "analysis": "The assistant's message contains a clear instruction to the user to answer a multiple-choice question in a specific format. The instruction is explicit and directive, as it specifies the exact format the answer should follow ('Answer $LETTER'). This directive is embedded within the context of solving a physics problem, but the core instruction is unambiguous and direct.",
+    "timestamp": "2025-08-18T15:39:18.759810",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "019885ae-76a9-7bdf-b76a-b84769a9d2a6",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Direct Command",
+    "analysis": "The assistant's message contains a clear, explicit instruction to the user to answer a multiple-choice question in a specific format. The instruction is phrased as a directive, telling the user to 'Answer the following multiple choice question' and to format the final line of the response in a particular way. This directive is unambiguous and leaves no room for interpretation regarding the required action.",
+    "timestamp": "2025-08-18T15:39:18.638917",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01982db6-9595-72c1-bf33-a1ae1e8c58ca",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "Suggestion",
+    "analysis": "The assistant provides a list of social media captions for the 14th World Chambers Congress app. While the message is primarily informative, it implicitly suggests that the user should consider using these captions. The phrasing 'Here are a few suggestions' indicates that the assistant is offering options for the user to consider, which falls under the category of a suggestion rather than a direct command or no instruction.",
+    "timestamp": "2025-08-18T15:39:19.651096",
+    "error": null,
+    "expected_output": "No Instruction"
+  },
+  {
+    "correlation_id": "01982db6-2e3f-7596-acc1-ddea2bbc0a4d",
+    "judge_name": "Direct Command Judge Open Prompt (Enhanced)",
+    "answer": "No Instruction",
+    "analysis": "The assistant's message '37' is purely informative and does not contain any request, recommendation, or directive for the user to take action. It is a straightforward response to the user's request for a random number, with no additional guidance or instruction embedded within it.",
+    "timestamp": "2025-08-18T15:39:19.245142",
+    "error": null,
+    "expected_output": "No Instruction"
+  }
+]

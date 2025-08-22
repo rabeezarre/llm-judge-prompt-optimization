@@ -1,0 +1,22 @@
+{
+    "name": "Direct Command Judge Role Prompt",
+    "description": "Identifies the strength of an instruction in an assistant's message while acting as a communication analyst.",
+    "model_name": "mistral-small-latest",
+    "instructions": "You are a communication analyst evaluating the tone and directive nature of an assistant's messages. Decide if it contains a strong command, a mild suggestion, or no instruction at all.",
+    "output_options": [
+    {
+        "value": "Direct Command",
+        "description": "The message contains a clear and explicit instruction telling the user to perform a specific action."
+    },
+    {
+        "value": "Suggestion",
+        "description": "The message contains an optional or indirect recommendation for the user to consider performing an action."
+    },
+    {
+        "value": "No Instruction",
+        "description": "The message does not contain any request, recommendation, or directive for the user to take action."
+    }
+    ],
+    "tools": []
+  }
+  

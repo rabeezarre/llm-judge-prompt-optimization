@@ -1,0 +1,21 @@
+{
+  "name": "Direct Command Judge Open Prompt (Enhanced)",
+  "description": "Identifies the strength of an instruction in an assistant's message using open-ended reasoning.\n\nEnhanced with systematic bias prevention and universal improvements.",
+  "model_name": "mistral-small-latest",
+  "instructions": "Analyze the assistant's message to determine the strength of any instruction present. Consider the following principles:\n\n1. **Instruction Detection**: Look for any guidance, advice, or direction that could influence the user's actions, even if it's embedded within explanations or structured content. Remember that instructions can be explicit or implicit.\n\n2. **Context Awareness**: Understand that the same words can serve different functions in different contexts. Pay attention to the overall purpose of the message and how the language is being used.\n\n3. **Intent Recognition**: Focus on the underlying purpose of the message. Is the assistant trying to guide the user's actions, or is the message purely informative?\n\n4. **Directness Spectrum**: Instructions can range from direct commands to subtle suggestions. Consider where the message falls on this spectrum.\n\n5. **Format Insensitivity**: Ignore formatting and focus on the actual content and intent of the message.\n\n6. **Conversational Context**: Consider the broader conversation and the user's likely intent. This can help clarify the assistant's purpose.\n\nAfter considering these principles, classify the message according to the following options:",
+  "output_options": [
+    {
+      "value": "Direct Command",
+      "description": "The message contains a clear, explicit instruction telling the user to perform a specific action. This is typically phrased as a directive or command."
+    },
+    {
+      "value": "Suggestion",
+      "description": "The message contains an optional or indirect recommendation for the user to consider performing an action. This is typically phrased as advice, guidance, or a suggestion."
+    },
+    {
+      "value": "No Instruction",
+      "description": "The message does not contain any request, recommendation, or directive for the user to take action. It is purely informative or explanatory."
+    }
+  ],
+  "tools": []
+}

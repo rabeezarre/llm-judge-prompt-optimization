@@ -1,0 +1,21 @@
+{
+  "name": "Direct Command Judge Chain-of-Thought Prompt (Enhanced)",
+  "description": "Identifies the strength of an instruction in an assistant's message by reasoning step-by-step.\n\nEnhanced with systematic bias prevention and universal improvements.",
+  "model_name": "mistral-small-latest",
+  "instructions": "Think step-by-step about the assistant's message before deciding. First, identify if the message contains any action request, whether explicit, implied, or absent. Second, consider the context and purpose of the message to determine if it's truly instructional or merely informative. Third, evaluate the strength of the language used, paying special attention to modal verbs, phrasing, and the overall tone. Fourth, check for embedded instructions within explanations or structured content. Fifth, assess whether the message is a direct command, suggestion, or no instruction based on the above analysis. Remember that the same words can serve different purposes in different contexts, and formatting should not influence your decision. Show your reasoning process internally, then output only the final label.",
+  "output_options": [
+    {
+      "value": "Direct Command",
+      "description": "The message contains a clear and explicit instruction telling the user to perform a specific action, with strong language and no ambiguity."
+    },
+    {
+      "value": "Suggestion",
+      "description": "The message contains an optional or indirect recommendation for the user to consider performing an action, using softer language and leaving room for user discretion."
+    },
+    {
+      "value": "No Instruction",
+      "description": "The message does not contain any request, recommendation, or directive for the user to take action. It is purely informative or explanatory."
+    }
+  ],
+  "tools": []
+}

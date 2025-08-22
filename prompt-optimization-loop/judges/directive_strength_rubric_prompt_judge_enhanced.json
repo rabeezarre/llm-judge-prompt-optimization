@@ -1,0 +1,21 @@
+{
+  "name": "Direct Command Judge Rubric Prompt (Enhanced)",
+  "description": "Identifies the strength of an instruction in an assistant's message using explicit evaluation criteria.\n\nEnhanced with systematic bias prevention and universal improvements.",
+  "model_name": "mistral-small-latest",
+  "instructions": "Evaluate the assistant's message using the following rubric, paying special attention to context and indirect expressions of intent:\n\n1. **Direct Command**: Choose this if the message contains clear, explicit instructions to perform a specific action, regardless of where in the message this appears. Look for imperative verbs or unavoidable instructions, even if they're embedded within explanations or other content.\n\n2. **Suggestion**: Choose this if the message recommends an action with soft language (e.g., 'might', 'could', 'consider') OR if it provides information that implies a course of action without explicit directive language. Pay attention to the overall intent of the message, not just specific words.\n\n3. **No Instruction**: Choose this only if the message provides no actionable information or if it's purely informational without any implied or explicit course of action.\n\nKey principles:\n- Consider the overall purpose of the message, not just individual words or phrases\n- Look for implied intent as well as explicit instructions\n- Don't be distracted by formatting or message structure when evaluating content\n- Remember that the same words can serve different functions in different contexts",
+  "output_options": [
+    {
+      "value": "Direct Command",
+      "description": "The message contains a clear and explicit instruction telling the user to perform a specific action, regardless of where this appears in the message."
+    },
+    {
+      "value": "Suggestion",
+      "description": "The message contains an optional or indirect recommendation for the user to consider performing an action, or provides information that implies a course of action without explicit directive language."
+    },
+    {
+      "value": "No Instruction",
+      "description": "The message does not contain any request, recommendation, or directive for the user to take action, and provides no information that implies a course of action."
+    }
+  ],
+  "tools": []
+}
