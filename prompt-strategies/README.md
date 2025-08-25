@@ -44,7 +44,7 @@ prompt-strategies/
 ├── annotated/              # Final merged annotation files
 ├── annotations/            # Raw human annotations
 ├── evaluations/            # Model outputs per strategy
-├── events/                 # Evaluation event logs
+├── events/                 # Dataset
 ├── judges/                 # Judge definitions (prompt templates in JSON)
 ├── concatenate_annotations.py # Merge annotations from multiple annotators (human and judge)
 ├── human_annotator.py      # Tool for manual annotation
